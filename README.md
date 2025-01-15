@@ -1,4 +1,8 @@
-CRUD app developed with React and NodeJS using PostgreSQL and the Express framework.
+CRUD app developed with React and NodeJS using PostgreSQL and the Express and Bootstrap frameworks.
+
+<p align="center">
+  <img  src="Cover.png">
+</p>
 
 # Getting Started with Create React App
 
