@@ -53,6 +53,10 @@ button{
   justify-content: center;
 }
 
+.card{
+  margin-top: 50px;
+}
+
 .data > label{margin: 5px;}
 .data > label > input{ margin:10px;}
 
