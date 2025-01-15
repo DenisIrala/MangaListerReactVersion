@@ -2,12 +2,21 @@ const express= require("express");
 const app=express();
 const cors= require("cors");
 const {Client}=require("pg");
+/*
 const client=new Client({
   host:"localhost",
   port: 5432,
   database: "web",
   user: "postgres",
   password: "1234"
+})
+  */
+
+const client=new Client({
+  host:"localhost",
+  database: "dbpweb",
+  user: "postgres",
+  password: "123"
 })
 
 app.use(cors());
