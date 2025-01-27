@@ -75,5 +75,5 @@ client
 
 
 app.listen(3001,()=>{
-  console.log("XD");
+  console.log("Server is up.");
 })

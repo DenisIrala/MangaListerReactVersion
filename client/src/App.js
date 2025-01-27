@@ -23,7 +23,7 @@ function App() {
       demography:demography,
       link:link
     }).then(()=>{
-      alert("Registro exitoso");
+      alert("The manga was successfully added.");
       getList();
     })
   
@@ -53,32 +53,32 @@ function App() {
   <div className="card-body">
     <div className="input-group mb-3">
       <span className="input-group-text" id="basic-addon1">Name</span>
-      <input type="text" onChange={(event)=>{setName(event.target.value);}} className="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"/>
+      <input type="text" onChange={(event)=>{setName(event.target.value);}} className="form-control" placeholder="Naruto" aria-label="Name" aria-describedby="basic-addon1"/>
     </div>        
     
     <div className="input-group mb-3">
       <span className="input-group-text" id="basic-addon1">Description</span>
-      <input type="text" onChange={(event)=>{setDescription(event.target.value);}} className="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"/>
+      <input type="text" onChange={(event)=>{setDescription(event.target.value);}} className="form-control" placeholder="Description" aria-label="Description" aria-describedby="basic-addon1"/>
     </div>   
     
     <div className="input-group mb-3">
       <span className="input-group-text" id="basic-addon1">Author</span>
-      <input type="text" onChange={(event)=>{setAuthor(event.target.value);}} className="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"/>
+      <input type="text" onChange={(event)=>{setAuthor(event.target.value);}} className="form-control" placeholder="Masashi Kishimoto" aria-label="Author" aria-describedby="basic-addon1"/>
     </div>   
 
     <div className="input-group mb-3">
       <span className="input-group-text" id="basic-addon1">Number of Entries</span>
-      <input type="number" onChange={(event)=>{setNoe(event.target.value);}} className="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"/>
+      <input type="number" onChange={(event)=>{setNoe(event.target.value);}} className="form-control" placeholder="700" aria-label="NOE" aria-describedby="basic-addon1"/>
     </div>   
 
     <div className="input-group mb-3">
       <span className="input-group-text" id="basic-addon1">Demography</span>
-      <input type="text" onChange={(event)=>{setDemography(event.target.value);}} className="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"/>
+      <input type="text" onChange={(event)=>{setDemography(event.target.value);}} className="form-control" placeholder="Shonen" aria-label="Demography" aria-describedby="basic-addon1"/>
     </div>   
 
     <div className="input-group mb-3">
       <span className="input-group-text" id="basic-addon1">Link</span>
-      <input type="text" onChange={(event)=>{setLink(event.target.value);}} className="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"/>
+      <input type="text" onChange={(event)=>{setLink(event.target.value);}} className="form-control" placeholder="https://en.wikipedia.org/wiki/Naruto" aria-label="Link" aria-describedby="basic-addon1"/>
     </div>   
         
     <p className="card-text"><button className="btn btn-success" onClick={add}>Add</button></p>
