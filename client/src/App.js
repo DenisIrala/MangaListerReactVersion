@@ -3,6 +3,7 @@ import './App.css';
 import {useState} from "react"
 import Axios from "axios"
 import 'bootstrap/dist/css/bootstrap.min.css'
+import { useEffect } from 'react';
 
 function App() {
   const [name, setName]=useState("");
@@ -36,6 +37,11 @@ function App() {
 
     })
   }
+
+  useEffect(() => {
+    getList();
+  }
+  )
 //  getList();
 
   return (
