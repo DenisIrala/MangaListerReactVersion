@@ -40,6 +40,10 @@ button{
   align-items: center;
 }
 
+.filterBox{
+  margin-top: 10px
+}
+
 .inside{
   display: flex;
   flex-direction: column;
